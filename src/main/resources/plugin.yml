@@ -1,0 +1,9 @@
+name: Vida
+version: '1.0'
+main: com.kinchin.test.Main
+api-version: '1.21'
+authors: [ mathsz ]
+description: Um plugin para setar a vida que desejar.
+commands:
+  vida:
+    description: Define a sua quantidade de corações.
