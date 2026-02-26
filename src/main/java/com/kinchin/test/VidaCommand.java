@@ -33,12 +33,12 @@ public class VidaCommand implements CommandExecutor {
             double vidaFinal = vidaDigitada * 2;
 
             if (player.getHealth() == vidaFinal) {
-                player.sendMessage(ChatColor.YELLOW + "Você já está com essa quantidade de vida!");
+                player.sendMessage("§eVocê já está com essa quantidade de vida!");
                 return true;
             }
 
             player.setHealth(vidaFinal);
-            player.sendMessage(ChatColor.GREEN + "Você mudou sua vida para " + (int)vidaDigitada);
+            player.sendMessage("§aVocê mudou sua vida para " + (int)vidaDigitada);
 
         }
 
